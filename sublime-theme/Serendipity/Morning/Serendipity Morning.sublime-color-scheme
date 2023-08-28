@@ -1,0 +1,179 @@
+{
+  "name": "Serendipity Morning",
+  "author": "",
+  "globals": {
+    "background": "#FDFDFE",
+    "foreground": "#4E5377",
+    "caret": "#4E5377",
+    "block_caret": "#4E5377",
+    "line_highlight": "#6e6a860d",
+    "misspelling": "#D26A5D",
+    "fold_marker": "#F19A8E",
+    "accent": "#F19A8E",
+    "gutter": "#0000",
+    "gutter_foreground": "#5F6488",
+    "line_diff_added": "#7397DE20",
+    "line_diff_modified": "#F19A8E",
+    "line_diff_deleted": "#D26A5D29",
+    "selection": "#6e6a8614",
+    "inactive_selection": "#F1F1F4",
+    "inactive_selection_foreground": "#4E5377",
+    "highlight": "#6e6a8626",
+    "find_highlight": "#6e6a8626",
+    "find_highlight_foreground": "#F19A8E",
+    "guide": "#6e6a8626",
+    "active_guide": "#F19A8E",
+    "stack_guide": "#8388AD",
+    "brackets_foreground": "#6e6a8626",
+    "tags_foreground": "#6e6a8626",
+    "shadow": "#D8DAE44d"
+  },
+  "variables": {
+    "black": "#D8DAE4",
+    "white": "#4E5377",
+    "red": "#D26A5D",
+    "green": "#3788BE",
+    "yellow": "#886CDB",
+    "orange": "#886CDB",
+    "blue": "#7397DE",
+    "magenta": "#77AAB3",
+    "cyan": "#F19A8E"
+  },
+  "rules": [
+    {
+      "foreground": "#8388AD",
+      "font_style": "italic",
+      "scope": "comment"
+    },
+    {
+      "foreground": "#3788BE",
+      "font_style": 0,
+      "scope": "constant"
+    },
+    {
+      "foreground": "#F19A8E",
+      "font_style": 0,
+      "scope": "constant.numeric, constant.language, constant.charcter.escape"
+    },
+    {
+      "foreground": "#F19A8E",
+      "font_style": 0,
+      "scope": "entity.name"
+    },
+    {
+      "foreground": "#7397DE",
+      "font_style": 0,
+      "scope": "entity.name.section, entity.name.tag, entity.name.namespace, entity.name.type"
+    },
+    {
+      "foreground": "#77AAB3",
+      "font_style": "italic",
+      "scope": "entity.other.attribute-name, entity.other.inherited-class"
+    },
+    {
+      "foreground": "#D26A5D",
+      "font_style": 0,
+      "scope": "invalid"
+    },
+    {
+      "foreground": "#5F6488",
+      "font_style": 0,
+      "scope": "invalid.deprecated"
+    },
+    {
+      "foreground": "#3788BE",
+      "font_style": 0,
+      "scope": "keyword"
+    },
+    {
+      "foreground": "#4E5377",
+      "font_style": 0,
+      "scope": "meta.tag, meta.brace"
+    },
+    {
+      "foreground": "#3788BE",
+      "font_style": 0,
+      "scope": "meta.import, meta.export"
+    },
+    {
+      "foreground": "#77AAB3",
+      "font_style": "italic",
+      "scope": "meta.directive.vue"
+    },
+    {
+      "foreground": "#7397DE",
+      "font_style": 0,
+      "scope": "meta.property-name.css"
+    },
+    {
+      "foreground": "#886CDB",
+      "font_style": 0,
+      "scope": "meta.property-value.css"
+    },
+    {
+      "foreground": "#5F6488",
+      "font_style": 0,
+      "scope": "meta.tag.other.html"
+    },
+    {
+      "foreground": "#5F6488",
+      "font_style": 0,
+      "scope": "punctuation"
+    },
+    {
+      "foreground": "#3788BE",
+      "font_style": 0,
+      "scope": "punctuation.accessor"
+    },
+    {
+      "foreground": "#886CDB",
+      "font_style": 0,
+      "scope": "punctuation.definition.string"
+    },
+    {
+      "foreground": "#8388AD",
+      "font_style": 0,
+      "scope": "punctuation.definition.tag"
+    },
+    {
+      "foreground": "#3788BE",
+      "font_style": 0,
+      "scope": "storage.type, storage.modifier"
+    },
+    {
+      "foreground": "#886CDB",
+      "font_style": 0,
+      "scope": "string"
+    },
+    {
+      "foreground": "#7397DE",
+      "font_style": 0,
+      "scope": "support"
+    },
+    {
+      "foreground": "#886CDB",
+      "font_style": 0,
+      "scope": "support.constant"
+    },
+    {
+      "foreground": "#D26A5D",
+      "font_style": "italic",
+      "scope": "support.function"
+    },
+    {
+      "foreground": "#F19A8E",
+      "font_style": "italic",
+      "scope": "variable"
+    },
+    {
+      "foreground": "#4E5377",
+      "font_style": 0,
+      "scope": "variable.other, variable.language, variable.function, variable.argument"
+    },
+    {
+      "foreground": "#77AAB3",
+      "font_style": 0,
+      "scope": "variable.parameter"
+    }
+  ]
+}
